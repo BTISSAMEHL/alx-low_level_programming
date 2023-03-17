@@ -9,7 +9,7 @@ int main(void)
 {
 	int nbr;
 
-	while (n < 10)
+	while (nbr < 10)
 	{
 		printf("%d", nbr);
 		nbr++;
