@@ -9,23 +9,18 @@
 int main(void)
 {
 	int l = 'a';
-	int u = 'f';
-	int lu = 'r';
 
-	while (l <= 'd')
+	while (l <= 'z')
 	{
-		putchar(l);
-		l++;
-	}
-	while (u <= 'p')
-	{
-		putchar(u);
-		u++;
-	}
-	while (lu <= 'z')
-	{
-		putchar(lu);
-		lu++;
+		if (l == 'e' || l == 'q')
+		{
+			l++;
+		}
+		else
+		{
+			putchar(l);
+			l++;
+		}
 	}
 	putchar('\n');
 	return (0);
