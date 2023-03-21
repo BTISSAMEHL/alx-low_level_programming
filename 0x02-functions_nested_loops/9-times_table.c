@@ -14,16 +14,16 @@ void times_table(void)
 		_putchar(' ');
 		for (col = 1; col <= 9; col++)
 		{
-			dig = (row $ col);
+			dig = (row * col);
 			if ((dig / 10) > 0)
 			{
-				_putchar((d / 10) + '0');
+				_putchar((dig / 10) + '0');
 			}
 			else
 			{
 				_putchar(' ');
 			}
-			_putchar((d % 10) + '0');
+			_putchar((dig % 10) + '0');
 			if (col < 9)
 			{
 				_putchar(',');
