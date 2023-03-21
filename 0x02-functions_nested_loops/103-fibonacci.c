@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	unsigned long fib1 = 0, fib = 1, sum;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 	float fib_sum;
 
 	while (1)
