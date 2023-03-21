@@ -32,9 +32,9 @@ int main(void)
 		}
 		printf("%lu%lu", h1, h2);
 		if (i != 98)
-			print(", ");
-		fib11 = fib 21;
-		fib12 = fib 22;
+			printf(", ");
+		fib11 = fib21;
+		fib12 = fib22;
 		fib21 = h1;
 		fib22 = h2;
 	}
