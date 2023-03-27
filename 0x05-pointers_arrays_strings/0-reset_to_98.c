@@ -7,9 +7,5 @@
  */
 void reset_to_98(int *n)
 {
-	int p = 98;
-
-	n = &p;
-
-	printf("%d", &n);
+	*n = 98;
 }
