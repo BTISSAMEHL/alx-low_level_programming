@@ -2,6 +2,8 @@
 /**
  * leet - a function that encodes a string into 1337
  * @a: input
+ * you can only use one if in your code
+ * you can only use two loops in your code
  * Return: a string into 1337
  */
 char *leet(char *a)
